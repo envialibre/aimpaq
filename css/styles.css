@@ -1,0 +1,566 @@
+/******Fonts*******/
+
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Roman.eot');
+    src: local('Avenir Roman'), local('fonts/Avenir-Roman'),
+        url('fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Roman.woff2') format('woff2'),
+        url('fonts/Avenir-Roman.woff') format('woff'),
+        url('fonts/Avenir-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Light.eot');
+    src: local('Avenir Light'), local('fonts/Avenir-Light'),
+        url('fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Light.woff2') format('woff2'),
+        url('fonts/Avenir-Light.woff') format('woff'),
+        url('fonts/Avenir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('fonts/Avenir-BookOblique.eot');
+    src: local('Avenir Book Oblique'), local('fonts/Avenir-BookOblique'),
+        url('fonts/Avenir-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-BookOblique.woff2') format('woff2'),
+        url('fonts/Avenir-BookOblique.woff') format('woff'),
+        url('fonts/Avenir-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-MediumOblique.eot');
+    src: local('Avenir Medium Oblique'), local('fonts/Avenir-MediumOblique'),
+        url('fonts/Avenir-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-MediumOblique.woff2') format('woff2'),
+        url('fonts/Avenir-MediumOblique.woff') format('woff'),
+        url('fonts/Avenir-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-LightOblique.eot');
+    src: local('Avenir Light Oblique'), local('fonts/Avenir-LightOblique'),
+        url('fonts/Avenir-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-LightOblique.woff2') format('woff2'),
+        url('fonts/Avenir-LightOblique.woff') format('woff'),
+        url('fonts/Avenir-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir-Book';
+    src: url('fonts/Avenir-Book.eot');
+    src: local('Avenir Book'), local('fonts/Avenir-Book'),
+        url('fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Book.woff2') format('woff2'),
+        url('fonts/Avenir-Book.woff') format('woff'),
+        url('fonts/Avenir-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('fonts/Avenir-Black.eot');
+    src: local('Avenir Black'), local('fonts/Avenir-Black'),
+        url('fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Black.woff2') format('woff2'),
+        url('fonts/Avenir-Black.woff') format('woff'),
+        url('fonts/Avenir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Oblique.eot');
+    src: local('Avenir Oblique'), local('fonts/Avenir-Oblique'),
+        url('fonts/Avenir-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Oblique.woff2') format('woff2'),
+        url('fonts/Avenir-Oblique.woff') format('woff'),
+        url('fonts/Avenir-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Medium.eot');
+    src: local('Avenir Medium'), local('fonts/Avenir-Medium'),
+        url('fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Avenir-Medium.woff2') format('woff2'),
+        url('fonts/Avenir-Medium.woff') format('woff'),
+        url('fonts/Avenir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: Avenir-Book, Helvetica, sans-serif;
+}
+
+#mostrar-oficinas{
+    cursor: pointer;
+}
+
+.section-puntos {
+    border-bottom: 3px solid #2fb1af;
+}
+
+.text-thin{
+    color: #2fb1af;
+    font-size: 2rem;
+
+}
+.section-puntos .col > div {
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.section-puntos img {
+    max-height: 100px;
+    max-width: 100px;
+}
+.txt-puntos {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.ofis{
+    display: none !important;
+}
+
+.form-control:focus {
+    border-color: #2fb1af;
+    box-shadow: 0 0 0 0.25rem #2fb1af;
+}
+
+.hide-important {
+    display: none !important;
+    /* Add other necessary styles */
+}
+
+p {
+    font-family: Avenir-Book;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Avenir-Black;
+}
+
+.navbar-brand img {
+    max-height: 74px;
+    padding-right: 65px;
+}
+
+.menu-doble{
+    width: 260px;    
+}
+.menu-doble li a {
+    padding: 1px;
+}
+
+.menu-doble li a img.mail{
+    width: 21px;
+}
+
+.borders-rose {
+    border-top: 3px solid #f5c0c0;
+    border-bottom: 3px solid #f5c0c0;
+}
+
+.borders-turquoise {
+    border-top: 3px solid #2fb1af;
+    border-bottom: 3px solid #2fb1af;
+}
+
+.font-black {
+    font-family: Avenir-Black !important;
+}
+
+.font-book {
+    font-family: Avenir-Book !important;
+}
+
+.img-max-55 {
+    max-width: 55%;
+}
+
+.img-max-80 {
+    max-width: 80%;
+}
+
+.img-max-90 {
+    max-width: 90%;
+}
+
+.box-items {
+    max-width: 65%;
+    padding: 2%;
+    margin-bottom: 30px;
+}
+
+
+/*********Colors************/
+.text-green-dark {
+    color: #126665;
+}
+
+.text-orange {
+    color: #e96738;
+
+}
+
+.text-turquoise {
+    color: #2fb1af;
+}
+
+.text-cream {
+    color: #f5e4cb
+}
+
+.bg-orange {
+    background-color: #e96738;
+}
+
+.bg-black {
+    background-color: #010a10 !important;
+}
+
+.bg-turquoise2 {
+    background-color: #2fb1af;
+}
+
+.bg-turquoise {
+    background-color: #2fb1af;
+}
+
+.border-15 {
+    border-radius: 15px;
+}
+
+.borders-turquoise2 {
+    border-top: 3px solid #2fb1af;
+    border-bottom: 3px solid #2fb1af;
+}
+
+.borders-turquoise {
+    border: 3px solid #2fb1af;
+}
+
+.font-big {
+    font-size: 3rem;
+}
+
+.orange {
+    color: #e96738;
+}
+
+.btn-orange {
+    border: 0 !important;
+    background-color: #e96738 !important;
+    --bs-btn-border-radius: 0;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+.btn-orange:hover {
+    background-color: #cc5a30 !important;
+}
+
+.responsive-video-container {
+    position: relative;
+    padding-bottom: 36.25%;
+    /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.list-stores img {
+    max-height: 136px;
+    width: auto !important;
+}
+
+.two-paths {
+    position: relative;
+    padding-top: 5%;
+}
+
+.overlay1 {
+    padding: 7% 4% 5% 4%;
+    font-size: 1.3rem;
+    left: 0;
+    margin-bottom: 250px;
+}
+
+.overlay1 p {
+    margin-bottom: 1px;
+}
+
+.overlay1,
+.overlay2 {
+    width: 54%;
+    min-height: 400px;
+}
+
+.overlay2 {
+    right: 0;
+    top: 200px;
+    position: absolute;
+}
+
+.border-r {
+    border-right: 10px solid #fff;
+}
+
+
+
+.paquete {
+    font-size: 1.1rem;
+    border-bottom: 4px solid #e96738;
+    padding-bottom: 0px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 10px;
+}
+
+.menu-2 {
+    font-size: 0.9rem;
+}
+
+.menu-3 {
+    font-size: 0.8rem;
+}
+
+i.fa {
+    color: #2fb1af;
+    border: 1px solid #fff;
+    margin: 4px;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.text-intro:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fbe4e8;
+    right: 4%;
+    top: 23%;
+}
+
+.text-intro:after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #fbe4e8;
+    right: 13%;
+    top: 82%;
+}
+
+.p-relative{
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+
+ul li:before{
+    position: absolute;
+    font-size: 3rem;
+    left: -43px;
+    margin-top: -12px;    
+}
+
+.lista-1:before {
+    content: "1.";
+}
+
+.lista-2:before {
+    content: "2.";
+}
+
+.lista-3:before {
+    content: "3.";
+}
+
+
+
+/* .p-relative.man-box:before {
+    content: "";
+    position: absolute;
+    background-image: url(images/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70px;
+    height: 60px;
+    bottom: -6%;
+    right: 25%;
+} */
+
+li::marker {
+    font-size: 1.2em;
+}
+
+
+.p-relative.man-box:after {
+    content: "";
+    position: absolute;
+    background-image: url(images/puntos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 75px;
+    height: 90px;
+    top: -14%;
+    left: 33%;
+    z-index: -20;
+    transform: rotate(90deg);
+}
+
+
+/* .p-relative.text-r-1:before {
+    content: "";
+    position: absolute;
+    background-image: url(images/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 54px;
+    height: 60px;
+    top: 29%;
+    left: -29%;
+} */
+
+.p-relative.man-calm:before {
+    content: "";
+    position: absolute;
+    background-image: url(images/puntos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 75px;
+    height: 90px;
+    top: 29%;
+    left: -11%;
+}
+
+
+
+.text-intro,
+.section-envios,
+.section-articulos,
+.section-articulos,
+.section-tiendas,
+.section-contacto,
+.section-oficinas {
+    position: relative;
+}
+
+
+.section-contacto{
+    background: rgb(250,250,250);
+    background: linear-gradient(153deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 61%, rgba(190,184,177,1) 100%);  
+}
+
+
+@media screen and (max-width:767px) {
+
+    .text-intro:before{
+        display: none;
+    }
+    .text-intro:after{
+        display: none;
+    }    
+    .no-mobile{
+        display: none;
+    }
+
+    .img-fluid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .img-max-80 {
+        max-width: 100%;
+    }
+
+    .img-max-90 {
+        max-width: 100%;
+    }
+
+
+    .box-items {
+        max-width: 100%;
+    }
+
+    .border-r {
+        border: 0;
+    }
+
+    .bg-turquoise {
+        background-color: #2fb1af;
+        height: auto !important;
+    }
+
+    .overlay1,
+    .overlay2 {
+        width: 100%;
+        min-height: 0 !important;
+    }
+
+    .overlay1 {
+        margin-bottom: 20px;
+        ;
+    }
+
+    .overlay2 {
+        top: 0;
+        position: relative;
+    }
+
+
+
+}
